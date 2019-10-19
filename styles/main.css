@@ -1,0 +1,23 @@
+h1, h3 {
+    font-family: 'Assistant', 'Verdana', 'Helvetica', sans-serif;
+    text-align: center;
+}
+p {
+  font-family: 'Assistant', 'Verdana', 'Helvetica', sans-serif;
+}
+body {
+    margin: 80px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    margin: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    margin: 20px;
+  }
+}
